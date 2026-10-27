@@ -1,6 +1,6 @@
 # Directorio UTESA — Tarea 5
 
-Aplicación Android desarrollada en Flutter/Dart. Consulta JSONPlaceholder mediante `http` y conserva los usuarios favoritos completos mediante `SharedPreferencesAsync`.
+Aplicación Android | IOS desarrollada en Flutter/Dart. Consulta JSONPlaceholder mediante `http` y conserva los usuarios favoritos completos mediante `SharedPreferencesAsync`.
 
 ## Ejecutar
 
@@ -19,7 +19,7 @@ flutter test
 flutter build apk --debug
 ```
 
-El APK de desarrollo se genera en `build/app/outputs/flutter-apk/app-debug.apk`. No es una publicación firmada para Play Store.
+El APK de desarrollo se genera en `build/app/outputs/flutter-apk/app-debug.apk`.
 
 ## Funciones
 
@@ -60,6 +60,5 @@ Para los 10 usuarios públicos de esta práctica basta un valor JSON pequeño. N
 5. Abrir Favoritos y su detalle: los datos personales permanecen; las publicaciones muestran aviso sin conexión.
 6. Restaurar Internet y usar Actualizar/Reintentar.
 
-Las capturas y los informes de la entrega están en las carpetas correspondientes del repositorio.
 
 Repositorio: https://github.com/LAL0098/Moviles_Utesa
